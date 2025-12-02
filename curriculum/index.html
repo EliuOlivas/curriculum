@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Currículum - Bootstrap</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+  <div class="container py-5">
+
+    <!-- Header -->
+    <div class="d-flex justify-content-center align-items-center gap-4 mb-5">
+      <img src="img/foto_perfil.jpg" alt="Foto de perfil" class="rounded-circle" width="130" height="130" style="object-fit: cover;">
+      <div class="text-center">
+        <h1 class="fw-bold mb-1">Jesús Eliú Olivas Pineda</h1>
+        <p class="text-muted fs-5">Desarrollador en formación con experiencia en la creación de interfaces funcionales y dinámicas.</p>
+      </div>
+    </div>
+
+    <!-- Perfil -->
+    <div class="card mb-4 shadow-sm">
+      <div class="card-body">
+        <h4 class="card-title mb-3">Perfil Profesional</h4>
+        <p>Soy un desarrollador en formación en el Instituto Tecnológico Superior de Nuevo Casas Grandes con interés en el desarrollo web, bases de datos y tecnologías modernas. Me gusta crear soluciones prácticas y bien estructuradas.</p>
+      </div>
+    </div>
+
+    <!-- Experiencia -->
+    <div class="card mb-4 shadow-sm">
+      <div class="card-body">
+        <h4 class="card-title mb-3">Experiencia</h4>
+
+        <div class="mb-3">
+          <h5 class="fw-semibold mb-1">Servicio Social - ITSNCG</h5>
+          <small class="text-muted">2025</small>
+          <p class="mt-2">Apoyo en actividades administrativas y desarrollo de material para proyectos institucionales.</p>
+        </div>
+
+        <div class="mb-3">
+          <h5 class="fw-semibold mb-1">Mesero - Los Bandidos</h5>
+          <small class="text-muted">2023 - 2025</small>
+          <p class="mt-2">En este trabajo se ha hecho: atender a clientes, trabajo bajo presión, trabajo en equipo, liderar equipos</p>
+        </div>
+        
+        <div class="mb-3">
+          <h5 class="fw-semibold mb-1">Presidencia Municipal - Janos</h5>
+          <small class="text-muted">2022</small>
+          <p class="mt-2">Manejo de documentos seriados, manejo de firmas, manejo de papeleo, uso de sistemas varios como excel y sistemas especializados, controles de uso, controles de asistencia</p>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Habilidades -->
+    <div class="card mb-4 shadow-sm">
+      <div class="card-body">
+        <h4 class="card-title mb-3">Habilidades</h4>
+        <ul>
+          
+            <li>Inglés 80%</li>
+            <li>Uso y manejo de Excel</li>
+            <li>Trabajo en equipo</li>
+            <li>Adaptabilidad y aprendizaje rápido</li>
+            <li>Disciplina y constancia</li>
+            <li>Capacidad de análisis</li>
+            <li>Atención al detalle</li>
+            <li>Atención al cliente</li>
+            <li>Pensamiento crítico</li>
+            <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>Bootstrap</li>
+          <li>Laravel</li>
+          <li>Vue.js</li>
+        </ul>
+      </div>
+    </div>
+
+
+    <!-- Proyectos -->
+    <div class="card mb-4 shadow-sm">
+      <div class="card-body">
+        <h4 class="card-title mb-3">Proyectos</h4>
+        <p class="mb-3">Aquí se muestran el proyecto en el que estuve apoyando en el ITSNCG en el departamento de residencias profesionales.</p>
+
+        <!-- Carrusel de imágenes -->
+        <div id="proyectosCarousel" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner rounded">
+            <div class="carousel-item active">
+              <img src="img/1ejemplo1.png" class="d-block w-100" alt="Proyecto 1">
+            </div>
+            <div class="carousel-item">
+              <img src="img/1ejemplo2.png" class="d-block w-100" alt="Proyecto 2">
+            </div>
+            <div class="carousel-item">
+              <img src="img/1ejemplo3.png" class="d-block w-100" alt="Proyecto 3">
+            </div>
+          </div>
+
+          <!-- Controles -->
+          <button class="carousel-control-prev" type="button" data-bs-target="#proyectosCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon bg-dark rounded-circle p-3" style="filter: invert(1);" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#proyectosCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon bg-dark rounded-circle p-3" style="filter: invert(1);" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    
+
+    <!-- Contacto -->
+    <div class="card shadow-sm">
+      <div class="card-body">
+        <h4 class="card-title mb-3">Contacto</h4>
+        <p><strong>Correo:</strong> eliu0280@gmail.com</p>
+        <p><strong>Teléfono:</strong> +52 636 109 2513</p>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
